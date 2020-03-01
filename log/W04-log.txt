@@ -1,1 +1,17 @@
-OS 2020 1 ASSIGNMENTS OF WEEK 4 DONE
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+OS 201 C 1806191742 abhiprayatj Abhipraya Tjondronegoro
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v1.0.1
+Comment: http://openpgpjs.org
+
+wsBcBAEBCAAQBQJeW+nLCRDR5y1cLLtDvwAArvoH+wX2JWkRoFxdmOX6xs33
+HaP9JBeJhxA/qSvd2mfksiNqvV1GAMWOpGYiKWrwXIV1j8z3Am5hQKcWdjlB
+4cbwe0+Of8VmpGM+f7Kc5carcpq/DO9SAYHv2A18m1pLvmknS/gy1m1U3/Ut
+99+K8h2Yrbow28AtG9oOV3zZSZob6SvV+L7/ygLlfE0qoUpn+cVoiTfTVdPa
+GUwDK+BwtUsLKRvNAO1aYCTTKwai4Uq33MEPoAEPLAx1VQki4kOocIe6yizy
+eUPNIksfWgH5tK9jPAcbGMaFcBFNxlyBsYG3PoTqBToWqfC95G2LhHSThjwv
+V9kRUu8lQsYKwTC3KybWzns=
+=kYK/
+-----END PGP SIGNATURE-----
