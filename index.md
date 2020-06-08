@@ -1,4 +1,4 @@
-# Website OS Dana
+# Website OS Praya
 
 ## Laman Utama
 Selamat datang di website saya!
