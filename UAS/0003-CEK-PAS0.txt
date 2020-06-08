@@ -1,4 +1,4 @@
-Script started on Mon 08 Jun 2020 04:54:17 PM WIB
+Script started on Mon 08 Jun 2020 08:57:13 PM WIB
 PS1="$ "
 echo $GitHubUser
 echo $PSTAMP
@@ -6,39 +6,31 @@ PS1="\$(eval \$PSTAMP)"
 ls -F
 sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
 sha1sum -c SHA1SUM
-abhipraya.tjondronegoro@badak:~$ PS1="$ "
+gpg2 -sb -a SHA1SUM
+gpg2 --verify SHA1SUM.asc
+exitabhipraya.tjondronegoro@badak:~$ PS1="$ "
 $ echo $GitHubUser
 abhiprayatj
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ PS1="\$(eval \$PSTAMP)"
-200608-165417-b47e-abhipraya.tjondronegoro/> ls -F
-0000-mypub.txt       0003-CEK-PAS0.txt  date    extra/            SHA1SUM
-0001-mytest.txt      0003-OSPUB.txt     Demos/  gpg2              test1.txt
-0002-mytest.txt.asc  coba.txt           exit    myprivatekey.asc
-txt 0002-mytest.txt.asc > SHA1SUMdronegoro/> sha1sum 0000-mypub.txt 0001-mytest.
-gpg2 -sb -a SHA1SUM
-gpg2 --verify SHA1SUM.asc
-exit200608-165417-b47e-abhipraya.tjondronegoro/> sha1sum -c SHA1SUM
+200608-205713-039d-abhipraya.tjondronegoro/> ls -F
+0000-mypub.txt       0003-CEK-PAS0.txt  coba.txt  exit    ls                SHA1SUM.asc
+0001-mytest.txt      0003-OSPUB.txt     date      extra/  myprivatekey.asc  test1.txt
+0002-mytest.txt.asc  cat                Demos/    gpg2    SHA1SUM
+200608-205713-039d-abhipraya.tjondronegoro/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-205713-039d-abhipraya.tjondronegoro/> sha1sum -c SHA1SUM
 0000-mypub.txt: OK
 0001-mytest.txt: OK
 0002-mytest.txt.asc: OK
-200608-165417-b47e-abhipraya.tjondronegoro/> gpg2 -sb -a SHA1SUM
+200608-205713-039d-abhipraya.tjondronegoro/> gpg2 -sb -a SHA1SUM
 
 You need a passphrase to unlock the secret key for
 user: "praya tjondro (key) <prayatjondro@gmail.com>"
 4096-bit RSA key, ID 694ED31B, created 2020-06-07
 
-200608-165427-f1d8-abhipraya.tjondronegoro/> cat 0003-CEK-PAS0.txt
-200608-165454-e73a-abhipraya.tjondronegoro/>
-200608-165456-aa0a-abhipraya.tjondronegoro/>
-200608-165456-aa0a-abhipraya.tjondronegoro/>
-200608-165456-aa0a-abhipraya.tjondronegoro/>
-200608-165457-4bd4-abhipraya.tjondronegoro/>
-200608-165458-b59a-abhipraya.tjondronegoro/>
-200608-165459-6191-abhipraya.tjondronegoro/>
-200608-165459-6191-abhipraya.tjondronegoro/>
-200608-165500-1cae-abhipraya.tjondronegoro/> exit
+File `SHA1SUM.asc' exists. Overwrite? (y/N) y
+200608-205724-5b69-abhipraya.tjondronegoro/> exit
 exit
 
-Script done on Mon 08 Jun 2020 04:55:16 PM WIB
+Script done on Mon 08 Jun 2020 08:57:30 PM WIB
