@@ -1,4 +1,4 @@
-# Website OS Praya
+# Website OS Abhipraya Tjondronegoro
 
 ## Laman Utama
 Selamat datang di website saya!
