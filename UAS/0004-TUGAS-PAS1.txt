@@ -16,20 +16,20 @@ echo -e $CEKSEBELA1
 
 echo -e $CEKSEBELA2
 
-exitabhipraya.tjondronegoro@badak:~$
-abhipraya.tjondronegoro@badak:~$ PS1="$ "
-$
+exit]0;abhipraya.tjondronegoro@badak: ~abhipraya.tjondronegoro@badak:~$ 
+]0;abhipraya.tjondronegoro@badak: ~abhipraya.tjondronegoro@badak:~$ PS1="$ "
+$ 
 $ echo $GitHubUser
 abhiprayatj
-$
+$ 
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$
+$ 
 $ eval $PSTAMP
-200608-225839-19aa-abhipraya.tjondronegoro/>
-$
+200608-225839-19aa-abhipraya.tjondronegoro/> 
+$ 
 $ PS1="\$(eval \$PSTAMP)"
-200608-225840-2796-abhipraya.tjondronegoro/>
+200608-225840-2796-abhipraya.tjondronegoro/> 
 200608-225840-2796-abhipraya.tjondronegoro/> echo -e $CEKSAYA
 abhiprayatj ZCZCSCRIPTSTART 200607-130526 abhiprayatj
  abhiprayatj abhiprayatj 200607-130526-c1de-abhipraya.tjondronegoro/ 200531-225011 SEQOK SUMOK c1de37e1
@@ -38,7 +38,7 @@ abhiprayatj ZCZCSCRIPTSTART 200607-130526 abhiprayatj
  abhiprayatj abhiprayatj 200607-130549-6787-abhipraya.tjondronegoro/ 200607-130549 SEQOK SUMOK 67877a99
  abhiprayatj ZCZCSCRIPTSTOP 200607-130557 SEQOK
 
-200608-225840-2796-abhipraya.tjondronegoro/>
+200608-225840-2796-abhipraya.tjondronegoro/> 
 200608-225840-2796-abhipraya.tjondronegoro/> echo -e $CEKSEBELA1
 abhiprayatj ZCZCSCRIPTSTART 200604-080142 abifajri
  abhiprayatj abifajri 200604-200549-5e3d-abi.fajri/ 200604-200549 SEQOK SUMOK 5e3d7c44
@@ -47,7 +47,7 @@ abhiprayatj ZCZCSCRIPTSTART 200604-080142 abifajri
  abhiprayatj abifajri 200604-200609-05de-abi.fajri/ 200604-200609 SEQOK SUMOK 05deea2a
  abhiprayatj ZCZCSCRIPTSTOP 200604-080634 SEQOK
 
-200608-225840-2796-abhipraya.tjondronegoro/>
+200608-225840-2796-abhipraya.tjondronegoro/> 
 200608-225840-2796-abhipraya.tjondronegoro/> echo -e $CEKSEBELA2
 abhiprayatj ZCZCSCRIPTSTART 200528-062034 aceyoga
  abhiprayatj aceyoga 200528-182057-5198-UAS/ 200528-182057 SEQOK SUMOK 519870cb
@@ -56,7 +56,7 @@ abhiprayatj ZCZCSCRIPTSTART 200528-062034 aceyoga
  abhiprayatj aceyoga 200528-182120-fdc9-UAS/ 200528-182120 SEQOK SUMOK fdc93c51
  abhiprayatj ZCZCSCRIPTSTOP 200528-062140 SEQOK
 
-200608-225840-2796-abhipraya.tjondronegoro/>
+200608-225840-2796-abhipraya.tjondronegoro/> 
 200608-225840-2796-abhipraya.tjondronegoro/> exit
 exit
 
